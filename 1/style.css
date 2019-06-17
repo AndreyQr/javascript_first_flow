@@ -1,0 +1,11 @@
+.block {
+    width: 400px; 
+    background-color: gray;
+}
+.hidden {
+    display: none;
+}
+span {
+    cursor: pointer;
+    margin-left: 380px;
+}
