@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider.exe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+</head>
+<body>
+    
+        <div class="slider" data-width="" data-height="">
+                <div class="slider-item">
+                    <img src="" alt="">
+                </div>
+            </div>
+        
+            <!-- preload -->
+            <div style="display: none;">
+                <img src="https://placeimg.com/1920/1080/animals" alt="">
+                <img src="https://placeimg.com/1920/1080/tech" alt="">
+                <img src="https://placeimg.com/1920/1080/nature" alt="">
+            </div>
+        
+            <script src="app.js"></script>
+            <script>
+                images.init([
+                    {src: "https://placeimg.com/1920/1080/animals"},
+                    {src: "https://placeimg.com/1920/1080/tech"},
+                    {src: "https://placeimg.com/1920/1080/nature"}
+                ]);
+            </script>
+    
+</body>
+</html>
